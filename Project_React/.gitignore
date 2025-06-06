@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/ # זו התיקייה החשובה ביותר להתעלמות בפרויקטי Node/React!
+jspm_packages/
+web_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# Jest artifacts
+.jest/
+
+# Production
+/build # תיקיית ה-build של הפרויקט
+/dist # תיקיית ה-dist (יכולה להיות שם ל-build)
+
+# Miscellaneous
+.DS_Store             # Mac
+.env                  # קבצי משתני סביבה (פרטיים)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode/              # הגדרות ספציפיות ל-VS Code
+*.sqlite3             # לדוגמה, קובץ בסיס נתונים
+*.db
+*.tmp
+*.swp
+.idea/                # הגדרות IDE כמו WebStorm / IntelliJ
+.cache/
+npm-debug.log
+yarn-error.log
+עבור פרויקט ה-React/Vite שלך, אלו השורות החשובות ביותר שאת רוצה שיהיו בקובץ .gitignore:
+
+# node_modules and build artifacts
+/node_modules
+/dist
+.env
+.env.local
